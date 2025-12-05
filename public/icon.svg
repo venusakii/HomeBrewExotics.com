@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <!-- Added gradient definitions for richer appearance -->
+    <linearGradient id="flaskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A45A2A"/>
+      <stop offset="100%" stop-color="#8B4513"/>
+    </linearGradient>
+    <linearGradient id="liquidGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E5B566"/>
+      <stop offset="100%" stop-color="#A45A2A"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Flask body -->
+  <path d="M11 4h10v4l5 18c0.5 2-1 4-3 4H9c-2 0-3.5-2-3-4l5-18V4z" fill="#1E1C19" stroke="url(#flaskGrad)" stroke-width="1.5"/>
+  
+  <!-- Flask neck -->
+  <rect x="11" y="2" width="10" height="4" rx="1" fill="url(#flaskGrad)"/>
+  
+  <!-- Liquid inside with gradient -->
+  <path d="M9.5 24c-0.3-1.5 0.5-3 1.5-3h10c1 0 1.8 1.5 1.5 3l-0.5 4c-0.2 1-1 2-2 2H12c-1 0-1.8-1-2-2l-0.5-4z" fill="url(#liquidGrad)" opacity="0.9"/>
+  
+  <!-- Rising bubbles -->
+  <circle cx="14" cy="21" r="1.8" fill="#E5B566" opacity="0.9"/>
+  <circle cx="18" cy="18" r="1.4" fill="#E5B566" opacity="0.8"/>
+  <circle cx="15" cy="14" r="1" fill="#E5B566" opacity="0.6"/>
+  <circle cx="17" cy="10" r="0.7" fill="#E5B566" opacity="0.4"/>
+</svg>
